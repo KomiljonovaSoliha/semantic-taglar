@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.menyu li{
+    list-style: none;
+
+
+}
+.menyu a{
+    text-decoration: none;
+    color: white;
+
+}
+.menyu{
+    display: flex;
+    gap: 30px;
+    
+}
+.headerContainer,.footerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header,footer{
+    background-color: black;
+    padding: 15px,0;
+    
+}
+
+
+
+
+
+.Mavzu{
+    
+    text-align: center;
+    margin-top: 114px;
+    font-size: 30px;
+    margin-bottom: 114px;
+
+
+    
+}
+.h1{
+    color: black;
+    margin: 0 auto;
+    
+}
+
+.container{
+    display: flex;
+    gap: 30px;
+    
+    
+
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+.figma1,.figma2,.figma3,.figma4,.figma5,.figma6{
+    width: 393px;
+    height: 230px;
+    border-radius: 20px;
+}
+.section{
+background-color: white;
+width: 393px;
+height: 136px;
+}
+h2{
+    text-align: center;
+    
+}
